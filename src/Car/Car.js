@@ -1,4 +1,5 @@
 import React from "react";
+import './Car.css'
 
 // function Car() {
 //   return <div>This is car Component !</div>;
@@ -10,13 +11,7 @@ import React from "react";
 
 const car = (props) => (
   <div
-    style={{
-      marginBottom: 10,
-      display: "block",
-      padding: 12,
-      color: '#646464',
-      boxShadow: "0 0px 15px 0px #ccc",
-    }}
+    className={'Car'}
   >
     <h3>Car name: {props.name}</h3>
     <p>
