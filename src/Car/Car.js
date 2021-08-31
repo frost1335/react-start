@@ -9,13 +9,22 @@ import React from "react";
 // };
 
 const car = (props) => (
-  <div>
+  <div
+    style={{
+      marginBottom: 10,
+      display: "block",
+      padding: 12,
+      color: '#646464',
+      boxShadow: "0 0px 15px 0px #ccc",
+    }}
+  >
     <h3>Car name: {props.name}</h3>
     <p>
       Year:
       <strong>{props.year}</strong>
     </p>
-    <button onClick={props.onChangeTitle}>Click</button>
+    <input type="text" onChange={props.onChangeName} value={props.name} />
+    <button onClick={props.onDelete}>Delete</button>
   </div>
 );
 
