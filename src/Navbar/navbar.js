@@ -21,21 +21,21 @@ const nav = () => {
           </div>
         </li>
         <li>
-          <button>Kirish</button>
+          <button className={"enterLink"}>Kirish</button>
         </li>
         <li>
-          <button>
+          <button className={"cartLink"}>
             <i className={"fas fa-shopping-cart"}></i>2
           </button>
         </li>
         <li>
-          <button>
+          <button className={"dropdownLink"}>
             Rus
             <i className={"fas fa-chevron-down"}></i>
           </button>
         </li>
         <li>
-          <button>
+          <button className={"dropdownLink"}>
             UZS
             <i className={"fas fa-chevron-down"}></i>
           </button>

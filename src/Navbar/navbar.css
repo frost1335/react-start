@@ -1,10 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-}
-
 input:focus,
 input:active {
   outline: none;
@@ -25,7 +18,7 @@ input:active {
 }
 
 .navbar .navMenu .searchBox {
-  width: 500px;
+  width: 650px;
   background: #ececec;
   border: 1px solid #6b4dff;
   box-sizing: border-box;
@@ -33,6 +26,7 @@ input:active {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 55px;
 }
 
 .navbar .navMenu .searchBox input {
@@ -51,7 +45,7 @@ input:active {
 
 .navbar .navMenu .searchBox button {
   height: 100%;
-  padding: 9.5px 22px 9.5px 17px;
+  padding: 9.5px 24px 9.5px 20px;
   background: #6b4dff;
   border: 1px solid #6b4dff;
   box-sizing: border-box;
@@ -59,4 +53,58 @@ input:active {
   cursor: pointer;
   color: #fff;
   font-size: 16px;
+}
+
+.navbar .navMenu .enterLink {
+  border: 1px solid #6b4dff;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: transparent;
+  padding: 10px 35px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.0075em;
+  color: #6b4dff;
+  cursor: pointer;
+}
+
+.navbar .navMenu .cartLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  padding: 6.5px 20px;
+  background: #6b4dff;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.6px;
+  color: #ffffff;
+}
+
+.navbar .navMenu .cartLink i {
+  margin-right: 10px;
+  margin-bottom: 1px;
+}
+
+.navbar .navMenu .dropdownLink {
+  border: none;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.0075em;
+  color: #22262a;
+  cursor: pointer;
+}
+
+.navbar .navMenu .dropdownLink i {
+  margin-left: 9px;
 }
