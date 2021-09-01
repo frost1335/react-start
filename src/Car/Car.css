@@ -1,7 +1,28 @@
 .Car {
-    margin-bottom: 10px;
-    display: "block";
-    padding: 12px;
-    color: #646464;
-    box-shadow: 0 0px 15px 0px #ccc;
+  margin-bottom: 10px;
+  display: "block";
+  padding: 12px;
+  color: #646464;
+  transition: border 0.3s;
+}
+
+.input {
+}
+
+.input:active,
+.input:focus {
+  outline: none;
+}
+
+.input.green {
+  border: 1px solid green;
+}
+
+.input.red {
+  border: 1px solid red;
+}
+
+.input.bold {
+  border: 2px solid green;
+  font-weight: 700;
 }
