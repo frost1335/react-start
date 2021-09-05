@@ -1,0 +1,28 @@
+header {
+  padding-top: 127px;
+  padding-bottom: 104px;
+  background-image: url(./images/Slider1.jpg);
+  background-size: 100% 100%;
+}
+
+.headerContent {
+  width: 1110px;
+  margin: auto;
+}
+
+.headerContent .headerTitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 28px;
+  letter-spacing: 0.6px;
+  color: #ffffff;
+}
+
+.headerContent .headerCheck {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  letter-spacing: 0.6px;
+  color: #ffffff;
+}

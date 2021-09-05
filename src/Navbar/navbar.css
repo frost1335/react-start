@@ -30,6 +30,7 @@ input:active {
 }
 
 .navbar .navMenu .searchBox input {
+  width: 100%;
   background: transparent;
   padding: 10px 0 10px 30px;
   border: none;
